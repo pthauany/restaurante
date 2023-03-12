@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa Francesa | Confeitaria</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+
+    <header>
+    
+        <a href="#" class="logo"><i clas="fas-fa-utensils"></i>Casa Francesa</a>
+
+        <nav class="navbar">
+            <a class="active" href="#home">Home</a>
+            <a href="#about">Quem somos</a>
+            <a href="#menu">Cardápio</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+
+    </header>
+    <form action="" id="search-form">
+        <input type="search" placeholder="search here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <section class="home" id="home">
+
+    <div class="swiper mySwiper home-slider">
+
+            <div class="swiper-wrapper wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Nosso prato especial</span>
+                        <h3>Creme Bruleè</h3>
+                        <p>
+                            O creme brûlèe é apenas um creme de baunilha gelado com uma cobertura de crocante de açúcar. 
+                            O contraste entre o queimadinho  da cobertura e o creme frio é o principal diferencial desse doce.
+                        </p>
+                        <a href="#" class="btn">Pedir agora</a>
+                    </div>
+                    <div class="image">
+                        <img src="Assets/raspberry-creme-brulee(2).png" alt="Creme Bruleè">
+                    </div>
+                </div>
+                <div class="swiper-slide slide ">
+                    <div class="content">
+                        <span>Nosso prato especial</span>
+                        <h3>Mil folhas</h3>
+                        <p>                  
+                            Mil folhas é uma sobremesa que intercala três camadas crocantes e duas de creme (simplesmente a combinação perfeita de texturas). 
+                        </p>
+                        <a href="#" class="btn">Pedir agora</a>
+                    </div>
+                    <div class="image">
+                        <img src="Assets/mil-folhas(2).png" alt="Mil folhas">
+                    </div>
+                </div>
+                <div class="swiper-slide slide ">
+                    <div class="content">
+                        <span>Nosso prato especial</span>
+                        <h3>Crepe Suzette</h3>
+                        <p>O crepe suzette é uma receita de crepe com açúcar caramelizado e toque de limão e laranja</p>
+                        <a href="#" class="btn">Pedir agora</a>
+                    </div>
+                    <div class="image">
+                        <img src="Assets/crepe-suzette-removebg-preview.png" alt="Crepe Suzette">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+            
+        </div>
+
+    </section>
+<!-- home section ends -->
+<!-- about section start -->
+    <section class="about" id="about">
+
+        <h3 class="sub-heading">about us</h3>
+        <h1 class="heading">why choose us?</h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="/Assets/bolo-opera.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>O melhor da confeitaria francesa em solo brasileiro</h3>
+                <p>
+                    A Casa Francesa é uma confeitaria que nasceu no coração da chefe Nicole Roux
+                    após a descoberta de sua descendência e a história de sua família. Ainda quando 
+                    adolescente ela se apaixonou pela culinária e buscou aprender as melhores técnicas 
+                    francesas na produção de doces. Em 2020, ela concretizou seu sonho e abriu uma
+                    confeitaria delivery que em breve se tornará um espaço físico.
+                </p>
+                <div class="icons-container">
+                    <div class="icons">
+                        <i class="fas fa-shipping-fast"></i>
+                        <span>Taxa fixa de R$10 para qualquer bairro de Belo Horizonte</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span>Aceitamos Pix, dinheiro e cartão</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-headset"></i>
+                        <span>Atendimento de segunda a domingo</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+<!-- about section ends -->
+
+<!-- menu section start -->
+
+
+<section id="menu" class="menu">
+
+    <h1 class="sub-heading">Nosso cardápio: </h3>
+
+    <div class="box-container">
+
+        <!-- bolo-opera -->
+        <div class="box">
+            <div class="image">
+                <img src="/Assets/bolo-opera.png" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <h3>Bolo opera</h3>
+                <p>
+                    O Gâteau Opéra ou, de uma forma abrasileirada, Bolo Ópera, é uma sobremesa deliciosa 
+                    com muitas camadas e uma das receitas mais clássicas da confeitaria francesa. 
+                    É feito com biscuit amande, que é quase um pão de ló de farinha de amêndoas. 
+                    Além disso, muitas camadas intercaladas com creme de manteiga e ganache.
+                </p>
+                <a href="#" class="btn">Adicionar ao carrinho</a>
+                <span class="price">R$16,00</span>
+            </div>
+        </div>
+
+        <!-- clafouti -->
+        <div class="box">
+            <div class="image">
+                <img src="/Assets/clafouti.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <h3>Clafoutis</h3>
+                <p>
+                    O Clafoutis é doce francês que pode ser servido em versão salgada.
+                    Parece um torta salgada ou uma pizza pão – como a gente conhece por aqui. 
+                    Essa receita é de tomatinho e queijo feta, e sua massa possui um diferencial: o iogurte.
+                </p>
+                <a href="#" class="btn">Adicionar ao carrinho</a>
+                <span class="price">R$32,00</span>
+            </div>
+        </div>
+
+        <!-- fraisier -->
+        <div class="box">
+            <div class="image">
+                <img src="/Assets/fraisier.png" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <h3>Fraisier</h3>
+                <p>
+                    O fraisier é um doce típico francês muito parecido com bolo mousse.
+                    O sabor dessa belezura tem aquela misturinha certeira do azedinho do morango 
+                    com a doçura do leite condensado! Não tem como resistir…
+                </p>
+                <a href="#" class="btn">Adicionar ao carrinho</a>
+                <span class="price">R$21,00</span>
+            </div>
+        </div>
+
+        <!-- galette-frutas-morango-pessego -->
+        <div class="box">
+            <div class="image">
+                <img src="/Assets/galette.png" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <h3>Galette</h3>
+                <p>
+                    A galette é uma torta rústica muito conhecida na França e o recheio de morango 
+                    e pêssego traz um frescor delicioso a cada mordida. Essa receita vem acompanhada
+                    de chantilly batido e uma bola de sorvete.
+
+                </p>
+                <a href="#" class="btn">Adicionar ao carrinho</a>
+                <span class="price">R$14,00</span>
+            </div>
+        </div>
+
+        <!-- creme-brulee -->
+        <div class="box">
+            <div class="image">
+                <img src="/Assets/raspberry-creme-brulee.png" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <h3>Creme brulee</h3>
+                <p>
+                    O creme brûlèe é apenas um creme de baunilha gelado com uma cobertura de crocante de açúcar. 
+                    O contraste entre o queimadinho  da cobertura e o creme frio é o principal diferencial desse doce.
+                </p>
+                <a href="#" class="btn">Adicionar ao carrinho</a>
+                <span class="price">R$16,00</span>
+            </div>
+        </div>
+
+        <!-- crepe-suzette -->
+        <div class="box">
+            <div class="image">
+                <img src="/Assets/crepe-suzette.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <h3>Crepe Suzette</h3>
+                <p>
+                    O crepe suzette é uma receita de crepe com açúcar caramelizado e toque de limão e laranja
+                </p>
+                <a href="#" class="btn">Adicionar ao carrinho</a>
+                <span class="price">R$14,00</span>
+            </div>
+        </div>
+
+        <!-- macaron-chocolate -->
+        <div class="box">
+            <div class="image">
+                <img src="/Assets/macaron-chocolate.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <h3>Macaron</h3>
+                <p>
+                    O macaron é também uma das delícias mais clássicas de todas. 
+                    Feito com farinha de amêndoas (totalmente sem glúten), esse é doce perfeito para quem curte delicadeza.
+                </p>
+                <a href="#" class="btn">Adicionar ao carrinho</a>
+                <span class="price">R$16,00</span>
+            </div>
+        </div>
+
+        <!-- madeleines-limao-chocolate-branco -->
+        <div class="box">
+            <div class="image">
+                <img src="/Assets/madeleines-limao-chocolate-branco.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <h3>Madelines</h3>
+                <p>
+                    As madeleines são bolinhos em formato de concha. Essa versão de limão mergulhada no chocolate branco é perfeita! 
+                    Aliás, esse é o complemento perfeito para um cafezinho 🙂
+                </p>
+                <a href="#" class="btn">Adicionar ao carrinho</a>
+                <span class="price">R$14,00</span>
+            </div>
+        </div>
+
+        <!-- mil-folhas -->
+        <div class="box">
+            <div class="image">
+                <img src="/Assets/mil-folhas.png" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <h3>Mil folhas</h3>
+                <p>
+                  Mil folhas é uma sobremesa que intercala três camadas crocantes e duas de creme (simplesmente a combinação perfeita de texturas). 
+                </p>
+                <a href="#" class="btn">Adicionar ao carrinho</a>
+                <span class="price">R$16,00</span>
+            </div>
+        </div>
+
+        <!-- sthonore -->
+        <div class="box">
+            <div class="image">
+                <img src="/Assets/sthonore.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <h3>Saint Honoré</h3>
+                <p>
+                    O saint honoré é composto por uma massa de farinha de amêndoas, com recheio de geleia de cereja e
+                    creme de piña colada com carolinas na decoração. Uma receita super delicada e com diversas
+                    texturas e sabores bem elaborados.
+                </p>
+                <a href="#" class="btn">Adicionar ao carrinho</a>
+                <span class="price">R$16,00</span>
+            </div>
+        </div>
+
+        <!-- tarte tatin -->
+        <div class="box">
+            <div class="image">
+                <img src="/Assets/tarte-tatin-pera-massa-folhada.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <h3>Tarte tatin</h3>
+                <p>
+                    Essa maravilha com peras caramelizada nada mais é do que uma torta invertida e super saborosa!
+                </p>
+                <a href="#" class="btn">Adicionar ao carrinho</a>
+                <span class="price">R$28,00</span>
+            </div>
+        </div>
+
+        <!-- torta mousse -->
+        <div class="box">
+            <div class="image">
+                <img src="/Assets/torta-mousse-limao-crème-au-citron.jpg" alt="">
+                <a href="#" class="fas fa-heart"></a>
+            </div>
+            <div class="content">
+                <h3>Torta mousse com crème au citron</h3>
+                <p>
+                    Ama um toque mais ácido nas sobremesas? Essa torta mousse de limão é a melhor opção da lista! O que dá ainda mais um toque francês é o uso do crème au citron, que sim, tem um sabor cítrico mais intenso e maravilhoso!
+                </p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">R$16,00</span>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- menu section ends -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script src="scripts.js"></script>
+
+
+</body>
+</html>
